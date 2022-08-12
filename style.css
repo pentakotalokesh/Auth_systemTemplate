@@ -25,6 +25,7 @@ a{
 	border: 1px solid ;
 	border-radius: 20px;
 	border-top-left-radius: 10px;
+	outline: none !important;
 }
 a:hover{
 	color: black;
@@ -53,6 +54,9 @@ a:hover{
 	border-radius: 10%;
 	background-color:#00203FFF ;
 	color: white;
+}
+.btn:focus{
+	outline: none;
 }
 form{
 	color: red;
